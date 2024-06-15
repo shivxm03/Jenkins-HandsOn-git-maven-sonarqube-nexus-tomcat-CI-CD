@@ -47,11 +47,11 @@ Add credentials for SonarQube, Nexus, and Tomcat in Jenkins global credentials.
 
 ![Screenshot 2024-06-14 211216](https://github.com/shivxm03/Jenkins-HandsOn-git-maven-sonarqube-nexus-tomcat-CI-CD/assets/157244434/638c51fb-bd74-40f7-83a4-259df9696696)
 
-### Step 8: Create Pipeline Job in Jenkins
+### Step 8: Create Pipeline Job in Jenkins:
 
  ![Screenshot 2024-06-14 210039](https://github.com/shivxm03/Jenkins-HandsOn-git-maven-sonarqube-nexus-tomcat-CI-CD/assets/157244434/eee11dda-3bf4-4ac2-a797-29644a2f1303)
 
-## A Pipeline script is written as different steps as follows
+## A Pipeline script is written as different steps as follows:
 
 Stage : Tool Install : Sets up tools required for the pipeline execution.
 Stage : Git Checkout : Retrieves the source code from a Git repository.
@@ -62,7 +62,7 @@ Stage : Deploy WAR file to Tomcat : Copies the War file from Nexus to a Tomcat s
 
 View Pipeline script  [Here](https://github.com/shivxm03/Jenkins-HandsOn-git-maven-sonarqube-nexus-tomcat-CI-CD/blob/main/jenkinsfile-cicd)
 
-### Output of SonarQube Analysis
+### Output of SonarQube Analysis:
 
 ![Screenshot 2024-06-14 214909](https://github.com/shivxm03/Jenkins-HandsOn-git-maven-sonarqube-nexus-tomcat-CI-CD/assets/157244434/708ffb18-502b-47a0-a3dc-3ccf13dc995a)
 
@@ -70,11 +70,11 @@ View Pipeline script  [Here](https://github.com/shivxm03/Jenkins-HandsOn-git-mav
 
 ![Screenshot 2024-06-14 213149](https://github.com/shivxm03/Jenkins-HandsOn-git-maven-sonarqube-nexus-tomcat-CI-CD/assets/157244434/5669095a-3b61-4cc1-b5a8-98e1b81932a5)
 
-## WAR file in nexus
+## WAR file in nexus:
 
 ![Screenshot 2024-06-14 213218](https://github.com/shivxm03/Jenkins-HandsOn-git-maven-sonarqube-nexus-tomcat-CI-CD/assets/157244434/0b22249f-101c-42d0-b910-e831a7127eee)
 
-### Screenshots of Jenkins
+### Screenshots of Jenkins:
 
 ![Screenshot 2024-06-14 212213](https://github.com/shivxm03/Jenkins-HandsOn-git-maven-sonarqube-nexus-tomcat-CI-CD/assets/157244434/6bf4572f-912f-4e95-8a7a-b9169514c09a)
 
@@ -87,15 +87,5 @@ View Pipeline script  [Here](https://github.com/shivxm03/Jenkins-HandsOn-git-mav
 ![Screenshot 2024-06-14 215828](https://github.com/shivxm03/Jenkins-HandsOn-git-maven-sonarqube-nexus-tomcat-CI-CD/assets/157244434/529cd679-6bad-4394-9aa4-7095214da485)
 
 ![Screenshot 2024-06-14 215917](https://github.com/shivxm03/Jenkins-HandsOn-git-maven-sonarqube-nexus-tomcat-CI-CD/assets/157244434/0fd3d509-465c-40d9-8006-a2a7bfd08e51)
-
-
-
-
-
-
-
-
-
-
 
 
