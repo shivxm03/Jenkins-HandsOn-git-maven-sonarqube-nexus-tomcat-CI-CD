@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Git Checkout') {
             steps {
-                git url: 'https://github.com/shivxm03/first-app.git', branch: 'main'
+                git url: 'https://github.com/shivxm03/Jenkins-HandsOn-git-maven-sonarqube-nexus-tomcat-CI-CD.git', branch: 'main'
             }
         }
         
@@ -38,7 +38,7 @@ pipeline {
                 ], 
                 credentialsId: 'nexus-credentials', 
                 groupId: 'in.javahome', 
-                nexusUrl: '35.183.183.63:8081', // Corrected Nexus URL
+                nexusUrl: '35.183.183.63:8081', // Your Nexus URL
                 nexusVersion: 'nexus3', 
                 protocol: 'http', 
                 repository: 'testnexusrepo', 
