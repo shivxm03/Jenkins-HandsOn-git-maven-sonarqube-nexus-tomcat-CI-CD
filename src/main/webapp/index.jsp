@@ -4,6 +4,6 @@
     <title>Shivam Patel</title>
 </head>
 <body>
-    <h2 style="color: red">Welcome to Devops World</h2>
+    <h2 style="color: green">Welcome to Devops World</h2>
 </body>
 </html>
