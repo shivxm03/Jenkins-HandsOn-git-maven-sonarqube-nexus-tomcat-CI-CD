@@ -49,16 +49,16 @@ Add credentials for SonarQube, Nexus, and Tomcat in Jenkins global credentials.
 
 ### Step 8: Create Pipeline Job in Jenkins:
 
-![Screenshot 2024-06-28 045501](https://github.com/shivxm03/Jenkins-HandsOn-git-maven-sonarqube-nexus-tomcat-CI-CD/assets/157244434/209bebb9-3cf2-4b8c-84a9-256dbbf66976)
+![Screenshot 2024-07-05 184054](https://github.com/shivxm03/Jenkins-HandsOn-git-maven-sonarqube-nexus-tomcat-CI-CD/assets/157244434/aad04d92-c04f-4e86-89c6-8b19a7670ec9)
 
 ## A Pipeline script is written as different steps as follows:
 
-Stage : Tool Install : Sets up tools required for the pipeline execution.
-Stage : Git Checkout : Retrieves the source code from a Git repository.
-Stage : Build Maven Application : Compiles and packages the Maven application
-Stage : Generate SonarQube Analysis : Runs SonarQube analysis on the project.
-Stage : Upload WAR file to nexus : Uploads the packaged artifact (WAR file) to a Nexus repository.
-Stage : Deploy WAR file to Tomcat : Copies the War file from Nexus to a Tomcat server for deployment.
+Stage : Tool Install : Sets up tools required for the pipeline execution. <br>
+Stage : Git Checkout : Retrieves the source code from a Git repository. <br>
+Stage : Build Maven Application : Compiles and packages the Maven application. <br>
+Stage : Generate SonarQube Analysis : Runs SonarQube analysis on the project. <br>
+Stage : Upload WAR file to nexus : Uploads the packaged artifact (WAR file) to a Nexus repository. <br>
+Stage : Deploy WAR file to Tomcat : Copies the War file from Nexus to a Tomcat server for deployment. <br>
 
 View Pipeline script  [Here](https://github.com/shivxm03/Jenkins-HandsOn-git-maven-sonarqube-nexus-tomcat-CI-CD/blob/main/jenkinsfile-cicd)
 
