@@ -49,7 +49,7 @@ Add credentials for SonarQube, Nexus, and Tomcat in Jenkins global credentials.
 
 ### Step 8: Create Pipeline Job in Jenkins:
 
- ![Screenshot 2024-06-14 210039](https://github.com/shivxm03/Jenkins-HandsOn-git-maven-sonarqube-nexus-tomcat-CI-CD/assets/157244434/eee11dda-3bf4-4ac2-a797-29644a2f1303)
+![Screenshot 2024-06-28 045501](https://github.com/shivxm03/Jenkins-HandsOn-git-maven-sonarqube-nexus-tomcat-CI-CD/assets/157244434/209bebb9-3cf2-4b8c-84a9-256dbbf66976)
 
 ## A Pipeline script is written as different steps as follows:
 
