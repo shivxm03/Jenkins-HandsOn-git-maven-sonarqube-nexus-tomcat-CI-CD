@@ -84,7 +84,12 @@ View Pipeline script  [Here](https://github.com/shivxm03/Jenkins-HandsOn-git-mav
 
 ![Screenshot 2024-06-14 220006](https://github.com/shivxm03/Jenkins-HandsOn-git-maven-sonarqube-nexus-tomcat-CI-CD/assets/157244434/0a2118cb-4565-417a-85e6-81b4a07b9845)
 
+## Final Output: Access Application on Tomcat Server ##
+ 
+###  Click /hiring ###
+
 ![Screenshot 2024-06-14 215828](https://github.com/shivxm03/Jenkins-HandsOn-git-maven-sonarqube-nexus-tomcat-CI-CD/assets/157244434/529cd679-6bad-4394-9aa4-7095214da485)
+
 
 ![Screenshot 2024-06-14 215917](https://github.com/shivxm03/Jenkins-HandsOn-git-maven-sonarqube-nexus-tomcat-CI-CD/assets/157244434/0fd3d509-465c-40d9-8006-a2a7bfd08e51)
 
